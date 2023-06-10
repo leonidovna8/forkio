@@ -5,6 +5,7 @@
  - Maryna Chernyuk
    - Сверстать шапку сайта с верхним меню (включая выпадающее меню при малом разрешении экрана). 
    - Сверстать секцию `People Are Talking About Fork`.
+   - Собрать проект с помощью сборщика `Gulp`
 
  - Diana Liashenko
    - Сверстать блок `Revolutionary Editor`.
