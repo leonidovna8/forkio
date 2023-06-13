@@ -1,0 +1,17 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "section_revolutionary";
+@import "section_what-you-get";
+@import "section_pricing.scss";
+@import "header";
+@import "section1_people_talk";
+
+body {
+    @include flex-center();
+    flex-direction: column;
+}
+
+.main{
+    width: 100%;
+}
