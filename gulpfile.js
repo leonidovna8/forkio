@@ -8,7 +8,11 @@ const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const postcss = require('gulp-postcss');
 const concat = require('gulp-concat');
+<<<<<<< HEAD
 const imgmin = require('gulp-imagemin');
+=======
+// const imgmin = require('gulp-imagemin');
+>>>>>>> Chernyuk-Maryna
 
 //Шляхи до файлів з якими ми працюватимемо (девелопмент файли)
 const files = {
@@ -65,7 +69,7 @@ exports.buildScripts = buildScripts;
 
 function buildImages() {
 	return gulp.src(files.imgPath)
-		.pipe(imgmin())
+		// .pipe(imgmin())
 		.pipe(gulp.dest("dist/img"))
 }
 

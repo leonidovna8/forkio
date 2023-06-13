@@ -1,10 +1,23 @@
 @import "reset";
 @import "variables";
 @import "mixins";
+<<<<<<< HEAD
 @import "section_revolutionary";
 @import "section_what-you-get";
 @import "section_pricing.scss";
 
 .main {
+=======
+@import "header";
+@import "section1_people_talk";
+
+
+body {
+    @include flex-center();
+    flex-direction: column;
+}
+
+.main{
+>>>>>>> Chernyuk-Maryna
     width: 100%;
 }
